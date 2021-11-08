@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/highhimanshu/him-portfolio/static/css/main.3583395c.chunk.css",
-    "main.js": "/highhimanshu/him-portfolio/static/js/main.35243562.chunk.js",
-    "main.js.map": "/highhimanshu/him-portfolio/static/js/main.35243562.chunk.js.map",
-    "runtime-main.js": "/highhimanshu/him-portfolio/static/js/runtime-main.f4ce7d76.js",
-    "runtime-main.js.map": "/highhimanshu/him-portfolio/static/js/runtime-main.f4ce7d76.js.map",
-    "static/js/2.53bffed9.chunk.js": "/highhimanshu/him-portfolio/static/js/2.53bffed9.chunk.js",
-    "static/js/2.53bffed9.chunk.js.map": "/highhimanshu/him-portfolio/static/js/2.53bffed9.chunk.js.map",
-    "index.html": "/highhimanshu/him-portfolio/index.html",
-    "static/css/main.3583395c.chunk.css.map": "/highhimanshu/him-portfolio/static/css/main.3583395c.chunk.css.map",
-    "static/js/2.53bffed9.chunk.js.LICENSE.txt": "/highhimanshu/him-portfolio/static/js/2.53bffed9.chunk.js.LICENSE.txt",
-    "static/media/hero.c62c103c.png": "/highhimanshu/him-portfolio/static/media/hero.c62c103c.png",
-    "static/media/port2.cb5f0379.jpg": "/highhimanshu/him-portfolio/static/media/port2.cb5f0379.jpg",
-    "static/media/port3.57d6df82.png": "/highhimanshu/him-portfolio/static/media/port3.57d6df82.png",
-    "static/media/port5.3287ae01.jpg": "/highhimanshu/him-portfolio/static/media/port5.3287ae01.jpg"
+    "main.css": "/him-portfolio/static/css/main.3583395c.chunk.css",
+    "main.js": "/him-portfolio/static/js/main.8128fdf0.chunk.js",
+    "main.js.map": "/him-portfolio/static/js/main.8128fdf0.chunk.js.map",
+    "runtime-main.js": "/him-portfolio/static/js/runtime-main.c676ba2e.js",
+    "runtime-main.js.map": "/him-portfolio/static/js/runtime-main.c676ba2e.js.map",
+    "static/js/2.1767ed2e.chunk.js": "/him-portfolio/static/js/2.1767ed2e.chunk.js",
+    "static/js/2.1767ed2e.chunk.js.map": "/him-portfolio/static/js/2.1767ed2e.chunk.js.map",
+    "index.html": "/him-portfolio/index.html",
+    "static/css/main.3583395c.chunk.css.map": "/him-portfolio/static/css/main.3583395c.chunk.css.map",
+    "static/js/2.1767ed2e.chunk.js.LICENSE.txt": "/him-portfolio/static/js/2.1767ed2e.chunk.js.LICENSE.txt",
+    "static/media/hero.c62c103c.png": "/him-portfolio/static/media/hero.c62c103c.png",
+    "static/media/port2.cb5f0379.jpg": "/him-portfolio/static/media/port2.cb5f0379.jpg",
+    "static/media/port3.57d6df82.png": "/him-portfolio/static/media/port3.57d6df82.png",
+    "static/media/port5.3287ae01.jpg": "/him-portfolio/static/media/port5.3287ae01.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f4ce7d76.js",
-    "static/js/2.53bffed9.chunk.js",
+    "static/js/runtime-main.c676ba2e.js",
+    "static/js/2.1767ed2e.chunk.js",
     "static/css/main.3583395c.chunk.css",
-    "static/js/main.35243562.chunk.js"
+    "static/js/main.8128fdf0.chunk.js"
   ]
 }
