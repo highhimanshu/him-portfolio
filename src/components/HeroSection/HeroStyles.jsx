@@ -1,6 +1,7 @@
 import { makeStyles } from "@material-ui/core";
 import { Theme } from "../../Theme";
 import hero from "../../images/hero.png";
+import him from "../../images/him.jpg";
 
 export const useStyles = makeStyles((theme) => ({
   //hero section
@@ -9,7 +10,7 @@ export const useStyles = makeStyles((theme) => ({
     minHeight: "90vh",
     height: "auto",
     backgroundColor: Theme.colors.base1,
-    background: `linear-gradient(to bottom right, #04303140, #00606479),url(${hero})`,
+    background: `linear-gradient(to bottom right, #04303140, #00606479),url(${him})`,
     backgroundRepeat: "no-repeat",
     backgroundSize: "cover",
   },

@@ -4,6 +4,7 @@ import {
   CardContent,
   CardHeader,
   Chip,
+  Grid,
   LinearProgress,
 } from "@material-ui/core";
 import React from "react";
@@ -12,7 +13,7 @@ export const ChipHeading = ({ title, color, variant }) => {
   return (
     <>
       <Chip
-        avatar={<Avatar>{title}</Avatar>}
+        avatar={<Avatar>{title.charAt(0)}</Avatar>}
         color={color}
         variant={variant}
         label={title}

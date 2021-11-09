@@ -37,7 +37,9 @@ const Portfolio = () => {
         variant: "default",
       })}
 
-      <Typography variant="h4">Let's see my work</Typography>
+      <Typography style={{ fontFamily: "inherit" }} variant="h4">
+        Let's see my work
+      </Typography>
       <Divider
         variant="middle"
         color="secondary"

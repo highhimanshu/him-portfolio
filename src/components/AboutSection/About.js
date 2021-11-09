@@ -2,11 +2,10 @@ import { Box, Grid, Hidden, Typography } from "@material-ui/core";
 import React from "react";
 import { useStyle as useBodyStyle } from "../BodyStyle";
 import { useStyles as useHeaderStyle } from "../HeroSection/HeroStyles";
-import image from "../../images/hero.png";
+import him from "../../images/him.jpg";
 import { ChipHeading, SkillCard } from "../common/commonComponents";
 import CodeIcon from "@material-ui/icons/Code";
-import SyncProblemIcon from "@material-ui/icons/SyncProblem";
-import FolderIcon from "@material-ui/icons/Folder";
+import ProgressBar from "../ProgressBar";
 
 const About = () => {
   const classes1 = useBodyStyle(); //body style css
@@ -22,14 +21,14 @@ const About = () => {
     {
       title: "HTML",
       description: "HTML description",
-      icon: <SyncProblemIcon />,
+      icon: <CodeIcon />,
       progressScore: 90,
     },
     {
       title: "CSS",
       description: "CSS description",
-      icon: <FolderIcon />,
-      progressScore: 50,
+      icon: <CodeIcon />,
+      progressScore: 30,
     },
   ];
 
@@ -40,7 +39,7 @@ const About = () => {
           <Grid item sm={5} spacing={4}>
             <Hidden xsDown>
               <img
-                src={image}
+                src={him}
                 alt="about us"
                 className={classes1.responsiveImg}
               />
@@ -80,6 +79,8 @@ const About = () => {
             </Grid>
           ))}
         </Grid>
+
+        <ProgressBar />
       </Box>
     </>
   );

@@ -4,7 +4,8 @@ import { Navbar } from "../Navbar";
 import ArrowDownwardIcon from "@material-ui/icons/ArrowDownward";
 import ReactTyped from "react-typed";
 // import Container from "@material-ui/core/Container";
-
+import { Link } from "react-scroll";
+import About from "../AboutSection/About";
 const Header = () => {
   const classes = useStyles();
 
@@ -27,6 +28,7 @@ const Header = () => {
           >
             <span style={{ marginRight: "5px" }}> I am</span>
             <ReactTyped
+              style={{ color: "#143438" }}
               strings={[
                 "Web Developer",
                 "Software Engineer",
@@ -40,6 +42,12 @@ const Header = () => {
 
           <Box m={1} style={{ width: "80%" }}>
             <Button
+              activeClass="active"
+              spy={true}
+              to={<About />}
+              smooth={true}
+              duration={300}
+              component={Link}
               variant="contained"
               color="white"
               className={classes.herobutton}
