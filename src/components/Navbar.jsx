@@ -11,7 +11,6 @@ import {
   Typography,
 } from "@material-ui/core";
 import SwipeableDrawer from "@material-ui/core/SwipeableDrawer";
-// import Link from "@material-ui/core/Link";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 import { useStyles } from "./HeroSection/HeroStyles";
 import MenuOpenIcon from "@material-ui/icons/MenuOpen";
@@ -25,6 +24,7 @@ export const Navbar = () => {
 
   const navlinks = [
     { label: "About", Id: "About" },
+    { label: "Certificate", Id: "Certificate" },
     { label: "Portfolio", Id: "Portfolio" },
     { label: "Contact", Id: "Contact" },
   ];

@@ -19,6 +19,5 @@ export const useStyle = makeStyles((theme) => ({
   },
   textboxDesign: {
     color: "white",
-    // backgroundC  olor: Theme.colors.primary,
   },
 }));

@@ -16,6 +16,8 @@ import port4 from "../../images/port4.jpg";
 import port5 from "../../images/port5.jpg";
 import port6 from "../../images/port6.jpg";
 import { useStyle as BodyStyle } from "../BodyStyle";
+import SimpleModal from "./PortfolioModal";
+import { Link } from "react-router-dom";
 
 const Portfolio = () => {
   const classes = useStyle();
@@ -30,14 +32,14 @@ const Portfolio = () => {
     { url: port6, title: "portfolio 6", link: "#" },
   ];
   return (
-    <Box className={classes.portfolioBackground} py={4} id="Portfolio">
+    <SimpleModal className={classes.portfolioBackground} py={4}>
       {ChipHeading({
         title: "Portfolio",
         color: "default",
         variant: "default",
       })}
 
-      <Typography style={{ fontFamily: "inherit" }} variant="h4">
+      <Typography className={classes.sectionHeading} variant="h4">
         Let's see my work
       </Typography>
       <Divider
@@ -64,6 +66,7 @@ const Portfolio = () => {
                   <Typography className={classes.overlayTitle}>
                     {eachImg.title}
                   </Typography>
+
                   <Button color="secondary" variant="contained" my={2}>
                     Visit
                   </Button>
@@ -73,7 +76,7 @@ const Portfolio = () => {
           ))}
         </Grid>
       </Container>
-    </Box>
+    </SimpleModal>
   );
 };
 

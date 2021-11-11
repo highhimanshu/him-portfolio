@@ -12,6 +12,15 @@ export const useStyle = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+    padding: "20px",
+  },
+  sectionHeading: {
+    fontFamily: "Inherit",
+    fontSize: "2rem",
+    [theme.breakpoints.down("xs")]: {
+      fontSize: "1.3rem",
+      margin: theme.spacing(2, 0),
+    },
   },
   imageContainer: {
     position: "relative",

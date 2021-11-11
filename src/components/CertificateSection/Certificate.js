@@ -1,5 +1,4 @@
 import Slider from "react-slick";
-
 import port1 from "../../images/port1.jpg";
 import port2 from "../../images/port2.jpg";
 import "slick-carousel/slick/slick.css";
@@ -11,28 +10,26 @@ import { Theme } from "../../Theme";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    // flexGrow: 1,
     backgroundColor: Theme.colors.primary,
-    fontFamily: "Inherit",
+    minHeight: "60vh",
+    height: "auto",
     color: Theme.colors.base2,
-    display: "block",
-    // justifyContent: "center",
-    // flexDirection: "column",
-    alignItems: "center",
-  },
-  imageStyle: {
-    padding: "0px",
-    marginTop: "15px",
-    marginBottom: "30px",
+    padding: theme.spacing(5, 5),
+    fontFamily: "Inherit",
   },
   responsiveImg: {
-    display: "block",
-    marginLeft: "auto",
-    marginRight: "auto",
+    display: "flex",
     width: "60%",
-    justifyContent: "center",
-    alignItems: "center",
+    // objectFit: "contain",
     borderRadius: 20,
+    margin: "auto",
+  },
+  sectionHeading: {
+    fontFamily: "Inherit",
+    [theme.breakpoints.down("xs")]: {
+      fontSize: "1.3rem",
+      margin: theme.spacing(2, 0),
+    },
   },
 }));
 
@@ -48,7 +45,7 @@ export const Certificate = () => {
   };
 
   return (
-    <div className={classes.root}>
+    <div className={classes.root} id="Certificate">
       <Box
         container
         py={2}
@@ -62,7 +59,7 @@ export const Certificate = () => {
           label: "basic",
           //   variant: "outlined",
         })}
-        <Typography style={{ fontFamily: "inherit" }} variant="h4">
+        <Typography className={classes.sectionHeading} variant="h4">
           Some Bragging
         </Typography>
         <Divider
